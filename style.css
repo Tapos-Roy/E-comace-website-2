@@ -1,0 +1,472 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.fixwidth{
+    width: 1200px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-left{
+    text-align: left;
+    
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header serction menu */
+
+.header-section {
+	height: 42px;
+	background: #EDECEA;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.header-logo {
+	float: left;
+	width: 30%;
+}
+.header-logo h3 {
+	line-height: 41px;
+	font-weight: 500;
+}
+.header-logo span{
+    color: #83B735;
+}
+.header-menu {
+	float: right;
+	width: 50%;
+}
+.header-menu ul {
+	text-align: right;
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a {
+	display: inline-block;
+	padding: 10px 10px;
+    color: #000;
+	transition: .5s;
+}
+.header-menu ul li a:hover{
+	color:#83B735 ;
+}
+
+
+/* banar section */
+.banar-section {
+	background-image: url("https://i.im.ge/2021/09/04/QSJkGX.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 149px;
+	background-position: bottom;
+	height: 300px;
+    background-attachment: fixed;
+}
+.banar-tex {
+	float: left;
+	width: 426px;
+}
+.banar-tex{}
+.banar-tex h1 {
+	width: 342px;
+	margin-bottom: 10px;
+}
+.banar-tex span{
+    color: #83B735;
+}
+.banar-tex p{}
+.banar-tex a {
+	background: #83B735;
+	padding: 8px;
+	display: inline-block;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 13px;
+}
+
+/* shop-now */
+
+.shop-now{}
+
+.shop-tex {
+	text-align: center;
+	margin-top: 54px;
+}
+.shop-tex b{
+    color: #83B735;
+}
+
+.img-shop {
+	box-shadow: 10px 10px 10px 10px #ddd;
+	margin-top: -16px;
+	width: 267px;
+	margin-left: 9px;
+	border-radius: 0 0 9px 5px;
+}
+.img {
+	width: 265px;
+	height: 317px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 10px;
+	border-radius: 30px 0 0 0;
+}
+.shop-img {
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+}
+
+.img img{
+    height: 100%;
+    width: 100%;
+    transition: .4s;
+}
+.img1 img:hover{
+    transform:scale(1.2);
+
+}
+.img2 img:hover{
+    transform:scale(1.2);
+
+}
+.img3 img:hover{
+    transform:scale(1.2);
+
+}
+.img4 img:hover{
+    transform:scale(1.2);
+
+}
+.img5 img:hover{
+    transform:scale(1.2);
+
+}
+
+.img6 img:hover{
+    transform:scale(1.2);
+
+}
+
+.img h2{
+    color: #000;
+    font-size: 50px;
+}
+.img-border {
+	display: inline-block;
+	width: 277px;
+	/* box-shadow: 3px 3px 6px -3px #000;
+    border-left: none; */
+}
+/* img-shop */
+.img-shop{}
+.chair{
+    float: left;
+    width: 50%;
+}
+
+.chair h4 {
+	margin-left: 10px;
+	margin-bottom: 1;
+	margin-top: 10px;
+	font-size: 19px;
+}
+.chair h3 {
+	color: #83B735;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+
+.star{}
+.star-icon i {
+	color: #83B735;
+	margin-left: 4px;
+}
+.fas.fa-shopping-cart {
+	margin-left: 85%;
+	background: #83B735;
+	padding: 10px 13px;
+	display: block;
+	margin-top: 10px;
+	border-radius: 7px 0 8px 0;
+	color: #fff;
+}
+.img4{}
+.img5{}
+.img1 img{}
+
+/* --- best selary--- */
+
+.best-content {
+	margin-bottom: 26px;
+	text-align: center;
+	margin-top: 100px;
+}
+.best-content h4 {
+	color: #83B735;
+	font-size: 14px;
+}
+.best-content h2 {
+	font-size: 20px;
+}
+.best-img {
+	display: inline-block;
+	margin-left: 83px;
+}
+.best {
+	width: 351px;
+	height: 338px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 10px;
+}
+.best img {
+	height: 100%;
+	width: 100%;
+	transition: .4s;
+}
+
+.image-shop {
+	box-shadow: 10px 10px 10px 10px #ddd;
+	margin-top: -16px;
+	width: 352px;
+	margin-left: 9px;
+	border-radius: 0 0 9px 5px;
+}
+
+.star-icon1 {
+	margin-left: 60px;
+	display: inline-block;
+	color: #83B735;
+}
+
+
+/* about section */
+.about-us {
+	margin-top: 91px;
+}
+.about-img {
+	float: left;
+	width: 27%;
+}
+.about-img img {
+	width: 468px;
+
+}
+
+.about {
+	float: right;
+	width: 48%;
+}
+.about h4 {
+	color: #83B735;
+}
+.about h2 {
+	width: 361px;
+	margin-bottom: 10px;
+}
+.about p {
+	margin-bottom: 20px;
+}
+.about a {
+	background: #83B735;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 2px;
+	display: inline-block;
+}
+
+/* our brand */
+.our-brands {
+	text-align: center;
+	margin-top: 76px;
+}
+.brands{}
+element {
+}
+.brands h4{
+	color: #83B735;
+}
+.brands h1{}
+
+.brands1 {
+	display: inline-block;
+}
+.brands1 img {
+	display: inline-block;
+	width: 211px;
+}
+.brands-icon{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+/* .brands-icon img{
+	width: 100%;
+}
+.brands1{
+	width: 15%;
+} */
+.brands1 img {
+	display: inline-block;
+	width: 156px;
+	padding: 15px;
+	filter: grayscale(100%);
+	transition: .4s;
+}
+
+.brands1 img:hover{
+	filter: grayscale(0);
+}
+.brands2{
+	display: inline-block;
+}
+
+.brands2 img {
+	display: inline-block;
+	width: 156px;
+	padding: 15px;
+	filter: grayscale(100%);
+	transition: .4s;
+}
+.brands2 img:hover{
+	filter: grayscale(0);
+}
+
+/* subcribe clear */
+
+.subcribe {
+	background-image: url("https://i.im.ge/2021/09/04/QSJHa8.jpg");
+	padding: 44px;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+	margin-top: 36px;
+}
+.newletter{
+	text-align: center;
+}
+.newletter h2 {
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+.new-input{}
+.email{}
+.email input {
+	/* height: 30px; */
+	width: 285px;
+	padding: 11px;
+	border: none;
+}
+.email a {
+	padding: 8px;
+	background: #83B735;
+	margin-left: -105px;
+	color: #fff;
+}
+
+/* fooder secrion  */
+.fooder-section {
+	margin-top: 50px;
+}
+
+.brand {
+	float: left;
+	width: 39%;
+}
+.brand h3 {
+	margin-bottom: 10px;
+}
+.brand h3 span {
+	color: #83B735;
+}
+.brand p{}
+
+.services{
+	float: left;
+	width: 20%;
+}
+
+.services h5{
+		font-size: 15px;
+}
+.services ul{}
+.services ul li{
+	list-style: none;
+	transition: .4s;
+}
+
+.product{
+	float: left;
+	width: 20%;
+}
+.product h5{
+	font-size: 15px;
+}
+.product ul{}
+.product ul li{
+	list-style: none;
+	transition: .4s;
+}
+
+.contact{
+	float: left;
+	width: 20%;
+}
+.contact h5{
+		font-size: 15px;
+}
+.contact ul{}
+.contact ul li{
+	list-style: none;
+	transition: .4s;
+}
+
+.brand i {
+	padding: 5px;
+	margin-top: 10px;
+	transition: .4s;
+}
+.brand i:hover{
+	color: rgb(121, 100, 100);
+}
+
+.food {
+	text-align: center;
+	margin-top: 96px;
+}
+.food p{}
+li{
+	
+}
+li:hover{
+	color: #83B735;
+}
